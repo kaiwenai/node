@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'node_modules/' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose cache add [ 'node_modules/', null ]
+5 verbose cache add name=undefined spec="node_modules/" args=["node_modules/",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node_modules/',
+6 verbose parsed url   path: 'node_modules/',
+6 verbose parsed url   href: 'node_modules/' }
+7 silly lockFile 5410a1be-node-modules node_modules/
+8 verbose lock node_modules/ /Users/hotpod/.npm/5410a1be-node-modules.lock
+9 silly lockFile 5410a1be-node-modules node_modules/
+10 silly lockFile 5410a1be-node-modules node_modules/
+11 error addLocal Could not install node_modules/
+12 error Error: ENOENT, open 'node_modules/package.json'
+12 error     at Error (native)
+13 error If you need help, you may report this *entire* log,
+13 error including the npm and node versions, at:
+13 error     <http://github.com/npm/npm/issues>
+14 error System Darwin 13.2.0
+15 error command "node" "/usr/local/bin/npm" "install" "node_modules/"
+16 error cwd /Users/hotpod/Documents/node
+17 error node -v v0.11.13
+18 error npm -v 1.4.9
+19 error path node_modules/package.json
+20 error code ENOENT
+21 error errno -2
+22 verbose exit [ -2, true ]
